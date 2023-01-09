@@ -69,6 +69,10 @@
           title: "Chapter 5"
       slides: "slides/lecture6.pdf"
     - 
+      date: 2023-02-03
+      title: Last day to drop a fifth course at Bryn Mawr and Haverford.
+      type: "'deadline'"
+    - 
       date: 2023-02-07
       title: Lecture 7 <br> Recursion
       assignments: 
@@ -144,9 +148,6 @@
       date: 2023-03-02
       title: Lecture 14 <br> Midterm
       type: "'exam'"
-  name: "Programming Fundamentals"
-- 
-  lectures: 
     - 
       date: 2023-03-07
       title: SPRING BREAK
@@ -155,6 +156,9 @@
       date: 2023-03-09
       title: SPRING BREAK
       type: "'no_lecture'"
+  name: "Programming Fundamentals"
+- 
+  lectures: 
     - 
       date: 2023-03-22
       title: Lecture 15 <br> Comparing Distributions & Measuring Uncertainty
@@ -347,4 +351,4 @@
       slides: "slides/lecture26.pdf"
       notebook: https://bc-coms-1016-poliak.columbiajupyter2.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-sp22&urlpath=tree%2Fmaterials-sp22%2F%2Fdemos%2FLecture_26.ipynb&branch=master
       completed_notebook: ~
-  name: "Prediction"
+  name: "Object-Oriented Programming (OOP)"
