@@ -11,11 +11,11 @@
       assignments: 
         - 
           title: "Lab00 - Command Line, Unix, Vim"
-          url: "lab00.html"
+          url: "labs/lab00.html"
         - 
           deadline: 2023-01-23
           title: "HW00 - Hello World, Compile Errors"
-          url: "hw00.html"
+          url: "hws/HW00.html"
     - 
       date: 2023-01-19
       title: Lecture 2 <br> Variables, Data Types, Expressions
