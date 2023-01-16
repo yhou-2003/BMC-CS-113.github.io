@@ -15,7 +15,8 @@ Run `bundle exec jekyll serve`
 
 
 ### Copying over the CS webserver
-`scp -r _site/* apoliak@symbolics.cs.brynmawr.edu:/var/www/html/cs113/website`
+1. Build the site (rather than serve): `bundle exec jekyll build`
+2. Copy of the build: `scp -r _site/* apoliak@symbolics.cs.brynmawr.edu:/var/www/html/cs113/website`
 
 ### Credits
 This course website is based on the template from crowdsourcing-class.github.io

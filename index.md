@@ -61,7 +61,7 @@ Time and place
 : Lab T: 2:25-3:45pm
 
 Office Hours
-: <a href="office-hours.html">Times</a>
+: <a href="{{ site.url }}{{ site.baseurl }}/office-hours.html">Times</a>
 
 Prerequisites
 : None - no prior programming background is required
@@ -81,6 +81,6 @@ Grading
 Late day policy
 : As a general rule, no late homework will be accepted.
 <br>
-See the [Policies](http://localhost:4000/policies.html#late-days) for more details.
+See the <a href="{{ site.url }}{{ site.baseurl }}/office-hours.html">Policies</a> for more details.
 
 <!--#### Acknowledgments-->
