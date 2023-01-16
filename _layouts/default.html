@@ -7,9 +7,9 @@
     <title>{{ page.title }}</title>
 
     <!-- CSS -->
-    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/class.css" rel="stylesheet">   
-    <link href="assets/css/syntax.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/class.css" rel="stylesheet">   
+    <link href="{{ site.baseurl }}/assets/css/syntax.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -56,8 +56,15 @@
             <li id="assignments">
 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Homeworks<span class="caret"></span></a>
 		<ol class="dropdown-menu">
-		<li><a href="">HW00</a></li>
+		<li><a href="{{ site.baseurl }}/hws/hw00.html">HW00</a></li>
 		<li><a href="">HW01</a></li>
+		</ol>
+            </li>
+            <li id="labs">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Labs<span class="caret"></span></a>
+		<ol class="dropdown-menu">
+		<li><a href="">Lab00</a></li>
+		<li><a href="">Lab01</a></li>
 		</ol>
             </li>
             <li id="resources">
@@ -120,7 +127,7 @@ might be outdated from the Fall 2020 immersive version of this course.
         <hr/>
         Last updated {{ site.time | date: "%B %d, %Y" }}. <br/>
         Feel free to reuse any of the contents of this course or this web page.   <br/>
-	The source code is on <a href="https://github.com/BC-COMS-1016-F20/BC-COMS-1016.github.io">github <i class="fa fa-github-alt"></i></a>.
+	The source code is on <a href="https://github.com/BMC-CS-113/website">github <i class="fa fa-github-alt"></i></a>.
         <br/>
       </footer>
     </div>
@@ -130,7 +137,7 @@ might be outdated from the Fall 2020 immersive version of this course.
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./dist/js/bootstrap.js"></script>
+    <script src="{{ site.baseurl }}/dist/js/bootstrap.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         $("#{{ page.active_tab }}").addClass("active");
