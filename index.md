@@ -71,16 +71,16 @@ Course Readings
 : Some lectures will have accompanying optional reading related to the lecture's topic
 
 Grading
-* Homeworks: 25%
-* Labs: 10%
+* Homeworks: 29%
+* Labs: 7%
 * Midterms: 25%
-* Final: 35% 
+* Final: 34% 
 * Participation: 5%
 
 
 Late day policy
 : As a general rule, no late homework will be accepted.
 <br>
-See the <a href="{{ site.url }}{{ site.baseurl }}/office-hours.html">Policies</a> for more details.
+See the <a href="{{ site.url }}{{ site.baseurl }}/policies.html">Policies</a> for more details.
 
 <!--#### Acknowledgments-->
