@@ -4,7 +4,7 @@ title: Hello World & Errors
 type: Lab
 number: 00
 active_tab: lab
-release_date: 2023-01-17
+release_date: 2023-01-16
 
 ---
 
@@ -20,13 +20,13 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <!-- Check whether the assignment is up to date -->
-{% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
+<!--{% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
 {% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}
 {% if this_year != due_year %} 
 <div class="alert alert-danger">
 Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
 </div>
-{% endif %}
+{% endif %}-->
 <!-- End of check whether the assignment is up to date -->
 
 
@@ -109,14 +109,13 @@ To find out what the second word represents, look around the lab computer you ar
 
 
 #### Navigation Commands!
-Now we are ready to start using command line arguments:
+Now we are ready to start using command line arguments. We will be using these command lines today:
 - ls
 - cd
 - mkdir 
-- rm
-- man
 - wget 
 - cat
+- wc
 
 ##### **`pwd` command**
 
@@ -220,23 +219,130 @@ That command printed out the contents of the parent directory. `../` represents 
 ##### **`cd` command**
 The next command will look at is `cd`, which stands for change directory. 
 
+Like `ls`, you can pass an argument to the `cd` command. Here the argument we pass in is the directory we want to move to.
+
+***TODO Question 1.11:*** Run the command `cd Downloads/`.
+What changed in the command line prompt? What do you think that tells us?
+
+ <details><summary><b style="color:DodgerBlue;">Hint</b></summary>
+Run the `pwd` command.
+</details> 
+
+We can also run `cd` without any arguments.
+
+***TODO Question 1.12:*** Run `cd` without any arguments. 
+Based on the prompt, what directory do you think we are now in? 
+
+ <details><summary><b style="color:DodgerBlue;">Hint</b></summary>
+Run the `pwd` command.
+</details> 
+
+***TODO Question 1.13:*** Think about the following command: `cd cs113`. What do you think will happen if we run this command?
+
+***TODO Question 1.14:*** Now run `cd cs113`. Did we move into that directory, why or why not?
+
 ##### **`mkdir` command**
 
-Creating your own CS113 directory.
+We can create new directories in the command line using the command `mkdir`.
 
-##### **`rm` command**
+ ***TODO Question 1.15:*** Run `mkdir` without any arguments. Were you able to create a new directory? If not, why not?
+ 
+ <br> <br>
+ 
+***TODO Question 1.16:*** You should notice an error message. Read the error message. Are there any new technical terms in the error message? What do you think it means?
 
-##### **`man` command**
+ <details><summary><b style="color:DodgerBlue;">Answer</b></summary>
+You can think of an `operand` as an argument. Technically an operand is an object or quantity that we perform an operation on. Here, what do you think the operand is and what operation are we performing on it?
+</details>
+<br><br>
 
+***TODO Question 1.17:*** The error message should also tell you an **option** or **flag** to use with the `mkdir` that can help you figure out how to use `mkdir`. We'll use the term flag and option interchangably here.  What is that specific flag?
+
+Next, use that flag to read the instructions to figure out how to create a new directory using `mkdir`. 
+
+***TODO Question 1.18:*** There is another flag that will tell us the version of `mkdir`. Based on the results from running `mkdir` with that flag, what version number is the `mkdir` on the CS lab machines? Also, who is the author? 
+
+***TODO Question 1.19:*** Use `mkdir` to create a new directory called `cs113`. Using a command that we've seen so far in today's lab, how can we determine that the directory `cs113` was indeed created?
+
+### Setting up your CS113 directory.
+
+Its a good idea to stay organized through out the course. You will be writing a lot of programs across many homeworks, labs, and in-class demo sessions. Therefore, we will now create that structure. 
+
+***TODO:*** Using `mkdir`, `cd`, and `ls`, create the following folders and subfolders in `cs113/`. Tabs indicate that a folder is within another folder.
+
+```
+cs113/
+	labs/
+		lab00/
+		lab01/
+		lab02/
+		...
+		lab12/
+	homeworks/
+		hw00/
+		hw01/
+		hw02/
+		...
+		hw12/
+	demos/
+```
+
+For the rest of this lab, you should be working in the `labs/lab00/` directory.
+
+***Checkpoint:*** Make sure a TA or instructor has checked your answers once you get to this part of thee lab.
+  
 ##### **`wget` command**
+We are now going to start looking at some data. `wget` is a "non-interactive network downloader," in other words it is a command that will download files from the internet. 
+
+Run `wget` and follow the instructions to figure out how it works. ***TODO Question 2.1:*** What argument does `wget` require?
+
+We are going to download a book from [Project Gutenberg](https://www.gutenberg.org/), an awesome project that is dedicated to the creation and distribution of eBooks. If you are interested, I'd highly recommend reading Michael S. Hart's (the project founder) short [essay](https://www.gutenberg.org/about/background/mission_statement.html) describing the mission statement.
+
+***TODO*** On Project Gutenberg, search for a book that you are interested in. Then use `wget` to download the book. 
+***Note:*** make sure to download the plaintext version. For example, if you were downloading Dracula, you would run 
+
+```
+wget https://www.gutenberg.org/ebooks/345.txt.utf-8
+```
+***TODO Question 2.2:*** What command from above could you use to determine that the file has downloaded? Then use that command to make sure that the file is indeed there.
+
+##### **`mv` command**
+`mv` is a command that can be used to move from one directory to another, or even rename files.
+
+***TODO:*** Use `mv` to rename the file to be the name of the book. Make sure to not have any spaces in the name of the file and that the file name ends in `.txt`.
 
 ##### **`cat` command**
 
+The last command we'll use in this lab, is `cat`.
+We are going to figure out what `cat` does by playing with in.
 
+***TODO:*** Run `cat`. Next, type a message into the command line and press `Enter`. ***Question 2.3:*** What happened? 
+
+Once you are finished with `cat`, hit `CTRl-C`, this will terminate the `cat` program. 
+
+***TODO:*** Using the same way we figured out how to use other commands, use the same method to read more about `cat`.
+
+***TODO:*** Then, use `cat` to print out the entire book.
+
+We have included more commands for interacting with files on the [course webpage](https://cs.brynmawr.edu/cs113///website/bash-commands.html). 
+
+***TODO Question 2.4:*** Using a command on the course webpage, determine how many lines are in your book? Using the same command that you found on the course webpage, how many words are in your book.
+
+##### **More commands**
+There are many more commands that you will be using during the semester. These include `cp`, `rm`, `man`, and others. Using the `--help` flag, you can read about that in terminal. 
+
+As the semester progresses, you will get more comfortable with and even gain mastery over the command line. Programming is a skill that can be developed like any other skill: practice, practice, practice!
 
 ## 2. vim
 For the remainder of the lab, you will go through the vimtutor. In the command line, type `vimtutor`. This will launch a tutorial on using vim.
 
+#### Update 01/17:
+Some of the machines in Park 230/231 might not have `vimtutor` installed. If thats the case, then complete the online vim tutorial: [https://www.openvim.com/tutorial.html](https://www.openvim.com/tutorial.html).
+
+
 ## Wrap up
 
 In the next lab we will 1) learn how to remotely access the lab machines, i.e. how to log into these machines from your own computer, 2) how to configure your terminal, and 3) write Java programs.
+
+### Signing out
+Before leaving, make sure your TA/instructor have signed you out of the lab. If you finish the lab early, you are free to go.
