@@ -77,18 +77,19 @@ $ cat output.txt | wc -l >> output.txt # Appends the line count of output.txt to
 #### Downloading Files
 To download the contents of any URL (whether it be a file, HTML page or even a picture), there's a very useful command on Mac and Linux.
 {% highlight tcsh %}
-$ wget http://www.crowdsourcing-class.org/assignment1.html # Downloads the contents of the URL as th file 'assignment1.html' to the current directory (used in Linux)
+$ wget https://cs.brynmawr.edu/cs113/website/hws/HW00.html # Downloads the contents of the URL as the file 'HW00.html' to the current directory (used in Linux)
 {% endhighlight %}
 {% highlight tcsh %}
-$ curl -O http://www.crowdsourcing-class.org/assignment1.html # Downloads the contents of the URL as th file 'assignment1.html' to the current directory (used in Mac)
+$ curl -O https://cs.brynmawr.edu/cs113/website/hws/HW00.html # Downloads the contents of the URL as the file 'HW00.html' to the current directory (used in Mac)
 {% endhighlight %}
 
 #### Uploading Files and Directories
-To turn in your HWs, you need to log into the remote SEAS server (ENIAC) and use the <code>turnin</code> tool. There are some commands below which show how to transfer your HW files from your local computer to another machine / server over SSH. The <code>:~/</code> at the end is required always. For directories, the <code>-r</code> flag is required. For Penn students, the username is your Pennkey.
+To turn in your HWs, you will need to upload files to Gradescope. If you are accessing the CS lab machines remotely, you will need to copy the files over onto your own computer to upload to Gradescope. 
+There are some commands below which show how to transfer your HW files from the lab machine to your local computer over SSH. The <code>:~/</code> at the end is required always. For directories, the <code>-r</code> flag is required. 
 {% highlight tcsh %}
-$ scp your_file_name username@serveraddress:~/ # This copies the file "your_file_name" to the remote server. 
-$ scp answers.txt johndoe@eniac.seas.upenn.edu:~/ # This copies answers.txt to ENIAC. 
-$ scp -r your_dir username@serveraddress:~/ # This copies the entire directory "your_dir" to the remote server.
-$ scp -r NETS213_HW johndoe@eniac.seas.upenn.edu:~/ # This copies the NETS213_HW directory to the remote server.
+$ scp  username@serveraddress:~/home/username/path-to-file/your_file_name . # This copies the file "your_file_name" from the remote server to your computer. 
+$ scp johndoe@goldengate.cs.brynmawr.edu:~/home/johndoe/CS113/hw10/README.txt . # This copies README.txt to your current directory. 
+$ scp -r username@serveraddress:~/home/username/path-to-dir . # This copies the entire directory "your_dir" from the remote server to your current directory on your own computer.
+$ scp -r johndoe@goldengate.cs.brynmawr.edu:~/home/username/CS113/hw09 # This copies the hw09 directory from the remote server to your computer.
 {% endhighlight %}
 
