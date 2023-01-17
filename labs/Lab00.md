@@ -118,7 +118,7 @@ Now we are ready to start using command line arguments:
 - wget 
 - cat
 
-##### pwd
+##### **`pwd` command**
 
 The first command we'll look at is `pwd`. This command prints the __p__ath to the __w__orking __d__irectory.
 
@@ -126,12 +126,12 @@ Computers are sturctured in a directory hierarchy where directories can contain 
 
 Run the command `pwd` (this means type `pwd` in the command line and click `Enter` - we'll be moving to this terminology).
 
-***TODO Question:*** What gets printed out? What do you think it means?
+***TODO Question 1.3:*** What gets printed out? What do you think it means?
 
-##### ls
+##### **`ls` command**
 The next command will look at is `ls`. Instead of us first describing this command, we'll let you try it out yourself. Run the command `ls`.
 
-***TODO: Question:*** What do you see printed out on in the terminal? What do you think all of that means?
+***TODO: Question 1.4:*** What do you see printed out on in the terminal? What do you think all of that means?
 
 <details><summary><b style="color:DodgerBlue;">HINT</b></summary>
 On your desktop, you likely have a folder with your username. Click on that and compare what opens up with what you see in your terminal.
@@ -143,7 +143,7 @@ We can add arguments to the `ls` command. After typing in `ls`, type the output 
 ls /home/apoliak/
 ```
 
-***TODO: Question:*** When you run `ls` with the path to your working directory, what do you see? Do you see anything different than before when you ran just `ls`? Why or why not?
+***TODO: Question 1.5:*** When you run `ls` with the path to your working directory, what do you see? Do you see anything different than before when you ran just `ls`? Why or why not?
 
 
 ##### Piping
@@ -155,7 +155,7 @@ Run the following command
 pwd | ls
 ```
 
-***TODO: Question:*** What do you see? Do you see anything different than before when you ran just `ls`?
+***TODO: Question 1.6:*** What do you see? Do you see anything different than before when you ran just `ls`?
 Why or why not?
 
 #### Home directory
@@ -173,27 +173,35 @@ ls B
 ```
 The output of running `ls` with each character would give you a hint of which of the two symbols represents your home directory.
 
-***Question:*** So, which of the two characters/symbols represent your home directory? 
+***TODO Question 1.7:*** So, which of the two characters/symbols represent your home directory? 
 
 #### Absolute vs Direct Paths
 
 So far we used `ls` to look at files in our own directory. When we run the command `ls /home/<USERNAME>` (here <USERNAME> is a place holder for your actual username), the argument was an **absolute path**. An absolute path is the path from the root (or top) of the computer/file system. We can also specify **relative paths**. These are paths that go from the current working directory to another folder that we specify. For example, when we run `ls Downloads/`, that will tell us what files and folders exist in the Downloads directory.
 
-***TODO Question:*** If we wanted to see what files exist in the Downloads directory but using an absolute path, what argument would we pass to `ls`?
+***TODO Question 1.8:*** If we wanted to see what files exist in the Downloads directory but using an absolute path, what argument would we pass to `ls`?
 
 
 #### Viewing other directories 
 
 From `pwd`, we see that the path to our home directory was `/home/<USERNAME>`.
 
-***TODO Question:*** How do you think we could use `ls` to find out what other users have an account on the CS lab machines?
+***TODO Question 1.9:*** How do you think we could use `ls` to find out what other users have an account on the CS lab machines?
 
 <details><summary><b style="color:DodgerBlue;">HINT 1</b></summary>
-We can add a specific absolute path to the ls command
-</details> 
+
+We can add a specific absolute path as an argument to the `ls` command
+
+</details>
+
 <details><summary><b style="color:DodgerBlue;">HINT 2</b></summary>
-The absolute path to your home directory was `/home/<USERNAME>/`, so what directory does your home directory live in?
+
+The absolute path to your home directory was `/home/<USERNAME\>/`, so what directory does your home directory live in?
+
 </details> 
+
+<br>
+
 
 We can also use a relative path. From your own directory, run the following command:
 
@@ -201,7 +209,7 @@ We can also use a relative path. From your own directory, run the following comm
 ls ../
 ```
 
-***TODO Question:*** What do you think that did? What do you think `../` means?
+***TODO Question 1.10:*** What do you think that did? What do you think `../` means?
 
 <details><summary><b style="color:DodgerBlue;">Answer</b></summary>
 That command printed out the contents of the parent directory. `../` represents that parent directory.
@@ -209,22 +217,20 @@ That command printed out the contents of the parent directory. `../` represents 
 
 
 
-
-
-
-
-
-##### cd
+##### **`cd` command**
 The next command will look at is `cd`, which stands for change directory. 
 
+##### **`mkdir` command**
 
+Creating your own CS113 directory.
 
-***TODO: Question:*** What do you see printed out on in the terminal? What do you think all of that means?
+##### **`rm` command**
 
-<details><summary><b style="color:DodgerBlue;">HINT</b></summary>
-On your desktop, you likely have a folder with your username. Click on that and compare what opens up with what you see in your terminal.
-</details> 
+##### **`man` command**
 
+##### **`wget` command**
+
+##### **`cat` command**
 
 
 
@@ -233,4 +239,4 @@ For the remainder of the lab, you will go through the vimtutor. In the command l
 
 ## Wrap up
 
-In the next lab we will 1) learn how to remotely access the lab machines, i.e. how to log into these machines from your own computer, and 2) write Java programs.
+In the next lab we will 1) learn how to remotely access the lab machines, i.e. how to log into these machines from your own computer, 2) how to configure your terminal, and 3) write Java programs.
