@@ -18,7 +18,7 @@ This is an introduction to the discipline of computer science, suitable for thos
 {% capture due_date %}{{page.due_date | date: '%s'}}{% endcapture %}
 {% if release_date < now and due_date >= now %}
 <div class="alert alert-info">
-<a href="{{page.url}}">{{ page.title }}</a> has been released.  
+<a href="{{site.url}}{{site.baseurl}}{{page.url}}">{{ page.title }}</a> has been released.  
 {% if page.deliverables %}
 The assignment has multiple deliverables.
 {% for deliverable in page.deliverables %}
@@ -67,7 +67,7 @@ Prerequisites
 : None - no prior programming background is required
 
 Course Readings
-: Each lecture has an accompanying chapter/section of the [textbook](https://cs.brynmawr.edu/cs113/textbook)
+: Each lecture has an accompanying chapter/section of the [textbook](https://cs.brynmawr.edu/cs113/textbook/cs113Textbook.pdf)
 : Some lectures will have accompanying optional reading related to the lecture's topic
 
 Grading
