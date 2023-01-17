@@ -3,7 +3,7 @@
     - 
       date: 2023-01-17
       title: Lecture 1 <br> Course Introduction <br> Terminal, Compiling
-      slides: slides/lecture1-intro.pdf
+      slides: slides/lecture01.pdf
       readings:
         -
           title: "Chapter 1"
@@ -19,7 +19,6 @@
     - 
       date: 2023-01-19
       title: Lecture 2 <br> Variables, Data Types, Expressions
-      slides: slides/lecture2.pdf
       assignments: 
       readings:
         -
@@ -27,7 +26,6 @@
     - 
       date: 2023-01-24
       title: "Lecture 3 <br> I/O: Input/Output" 
-      slides: slides/lecture3.pdf
       assignments: 
         - 
           title: "Lab01 - Variables"
@@ -42,7 +40,6 @@
     - 
       date: 2023-01-26
       title: Lecture 4 <br> Methods I
-      slides: "slides/lecture4.pdf"
       readings:
         -
           title: "Chapter 4"
@@ -52,7 +49,6 @@
       readings:
         -
           title: "Chapter 4"
-      slides: "slides/lecture5.pdf"
       assignments: 
         - 
           title: "Lab02"
@@ -67,7 +63,6 @@
       readings:
         -
           title: "Chapter 5"
-      slides: "slides/lecture6.pdf"
     - 
       date: 2023-02-03
       title: Last day to drop a fifth course at Bryn Mawr and Haverford.
@@ -86,14 +81,12 @@
       readings:
         -
           title: "Chapter 6"
-      slides: ~
     - 
       date: 2023-02-09
       title: Lecture 8 <br> Recursion II 
       readings:
         -
           title: "Chapter 6"
-      slides: slides/lecture8.pdf
     - 
       date: 2023-02-14
       title: Lecture 9 <br> Loops
@@ -108,18 +101,15 @@
           deadline: 2023-02-20
           title: "HW04"
           url: "hw04.html"
-      slides: slides/lecture9.pdf
     - 
       date: 2023-02-16
       title: Lecture 10 <br> Loops II
       readings:
         -
           title: "Chapter 7"
-      slides: "slides/lecture10.pdf"
     - 
       date: 2023-02-21
       title: Lecture 11 <br> Arrays & References
-      slides: "slides/lecture11.pdf"
       assignments: 
         - 
           title: "Lab05"
@@ -141,7 +131,6 @@
       readings:
         -
           title: "Chapter 9"
-      slides: "slides/lecture11.pdf"
     - 
       date: 2023-02-28
       title: Lecture 13 <br> Review

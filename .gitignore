@@ -107,4 +107,4 @@ venv.bak/
 _site/
 .sass-cache
 
-*pptx
+*.pptx
