@@ -106,7 +106,8 @@ To find out what the second word represents, look around the lab computer you ar
 </details> 
 
 <br>
-
+<br>
+<br>
 
 #### Navigation Commands!
 Now we are ready to start using command line arguments. We will be using these command lines today:
@@ -127,6 +128,10 @@ Run the command `pwd` (this means type `pwd` in the command line and click `Ente
 
 ***TODO Question 1.3:*** What gets printed out? What do you think it means?
 
+<br>
+<br>
+<br>
+
 ##### **`ls` command**
 The next command will look at is `ls`. Instead of us first describing this command, we'll let you try it out yourself. Run the command `ls`.
 
@@ -136,6 +141,10 @@ The next command will look at is `ls`. Instead of us first describing this comma
 On your desktop, you likely have a folder with your username. Click on that and compare what opens up with what you see in your terminal.
 </details> 
 
+<br>
+<br>
+<br>
+
 We can add arguments to the `ls` command. After typing in `ls`, type the output of the `pwd` command. For example, I would run the following command:
 
 ```
@@ -144,6 +153,9 @@ ls /home/apoliak/
 
 ***TODO: Question 1.5:*** When you run `ls` with the path to your working directory, what do you see? Do you see anything different than before when you ran just `ls`? Why or why not?
 
+<br>
+<br>
+<br>
 
 ##### Piping
 
@@ -156,6 +168,10 @@ pwd | ls
 
 ***TODO: Question 1.6:*** What do you see? Do you see anything different than before when you ran just `ls`?
 Why or why not?
+
+<br>
+<br>
+<br>
 
 #### Home directory
 
@@ -174,12 +190,19 @@ The output of running `ls` with each character would give you a hint of which of
 
 ***TODO Question 1.7:*** So, which of the two characters/symbols represent your home directory? 
 
+<br>
+<br>
+<br>
+
 #### Absolute vs Direct Paths
 
 So far we used `ls` to look at files in our own directory. When we run the command `ls /home/<USERNAME>` (here <USERNAME> is a place holder for your actual username), the argument was an **absolute path**. An absolute path is the path from the root (or top) of the computer/file system. We can also specify **relative paths**. These are paths that go from the current working directory to another folder that we specify. For example, when we run `ls Downloads/`, that will tell us what files and folders exist in the Downloads directory.
 
 ***TODO Question 1.8:*** If we wanted to see what files exist in the Downloads directory but using an absolute path, what argument would we pass to `ls`?
 
+<br>
+<br>
+<br>
 
 #### Viewing other directories 
 
@@ -214,6 +237,10 @@ ls ../
 That command printed out the contents of the parent directory. `../` represents that parent directory.
 </details> 
 
+<br>
+<br>
+<br>
+
 
 
 ##### **`cd` command**
@@ -237,9 +264,21 @@ Based on the prompt, what directory do you think we are now in?
 Run the `pwd` command.
 </details> 
 
+<br>
+<br>
+<br>
+
 ***TODO Question 1.13:*** Think about the following command: `cd cs113`. What do you think will happen if we run this command?
 
+<br>
+<br>
+<br>
+
 ***TODO Question 1.14:*** Now run `cd cs113`. Did we move into that directory, why or why not?
+
+<br>
+<br>
+<br>
 
 ##### **`mkdir` command**
 
@@ -247,22 +286,39 @@ We can create new directories in the command line using the command `mkdir`.
 
  ***TODO Question 1.15:*** Run `mkdir` without any arguments. Were you able to create a new directory? If not, why not?
  
- <br> <br>
+<br>
+<br>
+<br>
  
 ***TODO Question 1.16:*** You should notice an error message. Read the error message. Are there any new technical terms in the error message? What do you think it means?
 
  <details><summary><b style="color:DodgerBlue;">Answer</b></summary>
 You can think of an `operand` as an argument. Technically an operand is an object or quantity that we perform an operation on. Here, what do you think the operand is and what operation are we performing on it?
 </details>
-<br><br>
+
+<br>
+<br>
+<br>
 
 ***TODO Question 1.17:*** The error message should also tell you an **option** or **flag** to use with the `mkdir` that can help you figure out how to use `mkdir`. We'll use the term flag and option interchangably here.  What is that specific flag?
+
+<br>
+<br>
+<br>
 
 Next, use that flag to read the instructions to figure out how to create a new directory using `mkdir`. 
 
 ***TODO Question 1.18:*** There is another flag that will tell us the version of `mkdir`. Based on the results from running `mkdir` with that flag, what version number is the `mkdir` on the CS lab machines? Also, who is the author? 
 
+<br>
+<br>
+<br>
+
 ***TODO Question 1.19:*** Use `mkdir` to create a new directory called `cs113`. Using a command that we've seen so far in today's lab, how can we determine that the directory `cs113` was indeed created?
+
+<br>
+<br>
+<br>
 
 ### Setting up your CS113 directory.
 
@@ -296,6 +352,10 @@ We are now going to start looking at some data. `wget` is a "non-interactive net
 
 Run `wget` and follow the instructions to figure out how it works. ***TODO Question 2.1:*** What argument does `wget` require?
 
+<br>
+<br>
+<br>
+
 We are going to download a book from [Project Gutenberg](https://www.gutenberg.org/), an awesome project that is dedicated to the creation and distribution of eBooks. If you are interested, I'd highly recommend reading Michael S. Hart's (the project founder) short [essay](https://www.gutenberg.org/about/background/mission_statement.html) describing the mission statement.
 
 ***TODO*** On Project Gutenberg, search for a book that you are interested in. Then use `wget` to download the book. 
@@ -305,6 +365,10 @@ We are going to download a book from [Project Gutenberg](https://www.gutenberg.o
 wget https://www.gutenberg.org/ebooks/345.txt.utf-8
 ```
 ***TODO Question 2.2:*** What command from above could you use to determine that the file has downloaded? Then use that command to make sure that the file is indeed there.
+
+<br>
+<br>
+<br>
 
 ##### **`mv` command**
 `mv` is a command that can be used to move from one directory to another, or even rename files.
@@ -327,6 +391,10 @@ Once you are finished with `cat`, hit `CTRl-C`, this will terminate the `cat` pr
 We have included more commands for interacting with files on the [course webpage](https://cs.brynmawr.edu/cs113///website/bash-commands.html). 
 
 ***TODO Question 2.4:*** Using a command on the course webpage, determine how many lines are in your book? Using the same command that you found on the course webpage, how many words are in your book.
+
+<br>
+<br>
+<br>
 
 ##### **More commands**
 There are many more commands that you will be using during the semester. These include `cp`, `rm`, `man`, and others. Using the `--help` flag, you can read about that in terminal. 
