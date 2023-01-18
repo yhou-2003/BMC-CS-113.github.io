@@ -4,6 +4,8 @@
       date: 2023-01-17
       title: Lecture 1 <br> Course Introduction <br> Terminal, Compiling
       slides: slides/lecture01.pdf
+      recording: "https://brynmawr.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aa561b4d-2d47-4ee7-a30e-af8d013ddb06"
+      code: "https://github.com/BMC-CS-113/class-examples-s23/tree/main/week1/HelloWorld.java"
       readings:
         -
           title: "Chapter 1"
