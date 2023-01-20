@@ -21,7 +21,10 @@
     - 
       date: 2023-01-19
       title: Lecture 2 <br> Variables, Data Types, Expressions
+      recording: "https://brynmawr.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=91aa9a28-3c5b-4f93-8b0b-af8f012b0b7c"
+      slides: slides/lecture02.pdf
       assignments: 
+      code: "https://github.com/BMC-CS-113/class-examples-s23/blob/main/week1/Variables.java"
       readings:
         -
           title: "Chapter 2"
