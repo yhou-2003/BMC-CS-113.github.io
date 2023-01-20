@@ -87,9 +87,22 @@ $ curl -O https://cs.brynmawr.edu/cs113/website/hws/HW00.html # Downloads the co
 To turn in your HWs, you will need to upload files to Gradescope. If you are accessing the CS lab machines remotely, you will need to copy the files over onto your own computer to upload to Gradescope. 
 There are some commands below which show how to transfer your HW files from the lab machine to your local computer over SSH. The <code>:~/</code> at the end is required always. For directories, the <code>-r</code> flag is required. 
 {% highlight tcsh %}
-$ scp  username@serveraddress:~/home/username/path-to-file/your_file_name . # This copies the file "your_file_name" from the remote server to your computer. 
-$ scp johndoe@goldengate.cs.brynmawr.edu:~/home/johndoe/CS113/hw10/README.txt . # This copies README.txt to your current directory. 
+$ scp  username@serveraddress:/home/username/path-to-file/your_file_name . # This copies the file "your_file_name" from the remote server to your computer. 
+$ scp johndoe@goldengate.cs.brynmawr.edu:/home/johndoe/CS113/hw10/README.txt . # This copies README.txt to your current directory. 
 $ scp -r username@serveraddress:~/home/username/path-to-dir . # This copies the entire directory "your_dir" from the remote server to your current directory on your own computer.
 $ scp -r johndoe@goldengate.cs.brynmawr.edu:~/home/username/CS113/hw09 # This copies the hw09 directory from the remote server to your computer.
+{% endhighlight %}
+
+#### VIM
+We will be using vim/vi as our text editor. vim is a powerful editor. Make sure to do the vim tutorial linked to in the first lab. 
+Here are some of the most common things you need to remember about vim
+{% highlight tcsh %}
+`i` starts an interactive session
+`ESC` will end interactive mode
+`:` is how you specific many command
+`:w` writes/saves the file
+`:q` quits vim
+`:q!` quits vim without saving changes
+`:! <...>` will run a bash command. For example `:! ls` will list the files in the directory you are currently in
 {% endhighlight %}
 
