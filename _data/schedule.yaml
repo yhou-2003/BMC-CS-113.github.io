@@ -31,20 +31,23 @@
     - 
       date: 2023-01-24
       title: "Lecture 3 <br> I/O: Input/Output" 
+      slides: slides/lecture03.pdf
+      code: "https://github.com/BMC-CS-113/class-examples-s23/tree/main/week1"
       assignments: 
         - 
-          title: "Lab01 - Variables"
-          url: "lab01.html"
+          title: "Lab01 - Variables, Input, Errors"
+          url: "labs/Lab01.html"
         - 
-          deadline: 2023-01-30
+          deadline: 2023-02-01
           title: "HW01 - Variables"
-          url: "hw01.html"
+          url: "hws/HW01.html"
       readings:
         -
           title: "Chapter 3"
     - 
       date: 2023-01-26
       title: Lecture 4 <br> Methods I
+      slides: slides/lecture04.pdf
       readings:
         -
           title: "Chapter 4"
@@ -124,7 +127,7 @@
           title: "Chapter 8"
     - 
       date: 2023-02-24
-      slides: ~
+      slides: slides/lecture03.pdf
       title: Last day to declare Cr/NC for full semester courses (5 p.m.).
       slides: ~
       notebook:  ~
