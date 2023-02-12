@@ -48,26 +48,29 @@
       date: 2023-01-26
       title: Lecture 4 <br> Methods I
       slides: slides/lecture04.pdf
+      code: "https://github.com/BMC-CS-113/class-examples-s23/tree/main/week2"
       readings:
         -
           title: "Chapter 4"
     - 
       date: 2023-01-31
       title: Lecture 5 <br> Methods II
+      slides: slides/lecture05.pdf
       readings:
         -
           title: "Chapter 4"
       assignments: 
         - 
-          title: "Lab02"
-          url: "lab02.html"
+          title: "Lab02 - Methods"
+          url: "labs/Lab02.html"
         - 
-          deadline: 2023-02-06
+          deadline: 2023-02-08
           title: "HW02"
-          url: "hw02.html"
+          url: "hws/HW02.html"
     - 
       date: 2023-02-02
       title: Lecture 6 <br> Conditionals & Logic
+      slides: slides/lecture06.pdf
       readings:
         -
           title: "Chapter 5"
@@ -77,30 +80,42 @@
       type: "'deadline'"
     - 
       date: 2023-02-07
-      title: Lecture 7 <br> Recursion
+      title: Lecture 7 <br> Strings, Objects <br> <s>Recursion</s>
+      slides: slides/lecture07.pdf
       assignments: 
         - 
-          title: "Lab03"
-          url: "lab02.html"
-        - 
-          deadline: 2023-02-13
-          title: "HW03"
-          url: "hw03.html"
+          title: "Lab03 - Conditionals, Strings, Recursion"
+          url: "labs/Lab03.html"
       readings:
         -
-          title: "Chapter 6"
+          title: <s>Chapter 6</s>
+        -
+          title: "Chapter 7.10: String Comparison"
+        -
+          title: "Chapter 9.1: Primitives vs Objects"
     - 
       date: 2023-02-09
-      title: Lecture 8 <br> Recursion II 
+      title: Lecture 8 <br> Arrays <br> <s>Recursion II</s> 
+      slides: slides/lecture08.pdf
+      readings:
+        -
+          title: <s>Chapter 6</s>
+        -
+          title: "Chapter 8.1 & 8.2"
+        -
+          title: "Chapter 9.2: The null keyword"
+    - 
+      assignments: 
+        - 
+          deadline: 2023-02-15
+          title: "HW03 - Methods, Conditionals, Strings, and Arrays"
+          url: "hws/HW03.html"
+    - 
+      date: 2023-02-14
+      title: Lecture 9 <br> Recursion I <s>Loops</s>
       readings:
         -
           title: "Chapter 6"
-    - 
-      date: 2023-02-14
-      title: Lecture 9 <br> Loops
-      readings:
-        -
-          title: "Chapter 7"
       assignments: 
         - 
           title: "Lab04"
@@ -111,20 +126,22 @@
           url: "hw04.html"
     - 
       date: 2023-02-16
-      title: Lecture 10 <br> Loops II
+      title: Lecture 10 <br> Recursion II <br> Loops I <s>Loops II</s>
       readings:
         -
           title: "Chapter 7"
     - 
       date: 2023-02-21
-      title: Lecture 11 <br> Arrays & References
+      title: Lecture 11 <br> Loops II <s>Arrays & References</s>
       assignments: 
         - 
           title: "Lab05"
           url: "lab05.html"
       readings:
         -
-          title: "Chapter 8"
+          title: Chapter 7
+        -
+          title: <s>Chapter 8</s>
     - 
       date: 2023-02-24
       slides: slides/lecture03.pdf
@@ -135,8 +152,10 @@
       type: "'deadline'"
     -  
       date: 2023-02-23
-      title: Lecture 12 <br> References & Objects
+      title: Lecture 12 <br> Arrays & References & Objects
       readings:
+        -
+          title: "Chapter 8"
         -
           title: "Chapter 9"
     - 
