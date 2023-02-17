@@ -107,29 +107,31 @@
     - 
       assignments: 
         - 
-          deadline: 2023-02-15
+          deadline: 2023-02-16
           title: "HW03 - Methods, Conditionals, Strings, and Arrays"
           url: "hws/HW03.html"
     - 
       date: 2023-02-14
       title: Lecture 9 <br> Recursion I <s>Loops</s>
+      slides: slides/lecture09.pdf
       readings:
         -
           title: "Chapter 6"
       assignments: 
         - 
-          title: "Lab04"
-          url: "lab04.html"
-        - 
-          deadline: 2023-02-20
-          title: "HW04"
-          url: "hw04.html"
+          title: "Lab04 - Arrays, Recursion"
+          url: "labs/Lab04.html"
     - 
       date: 2023-02-16
       title: Lecture 10 <br> Recursion II <br> Loops I <s>Loops II</s>
+      slides: slides/lecture10.pdf
       readings:
         -
           title: "Chapter 7"
+        - 
+          deadline: 2023-02-22
+          title: "HW04 - recursion"
+          url: "hws/HW04.html"
     - 
       date: 2023-02-21
       title: Lecture 11 <br> Loops II <s>Arrays & References</s>
