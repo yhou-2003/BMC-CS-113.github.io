@@ -139,6 +139,10 @@
         - 
           title: "Lab05"
           url: "lab05.html"
+        - 
+          deadline: 2023-02-27
+          title: "HW04 - Loops"
+          url: "hws/HW05.html"
       readings:
         -
           title: Chapter 7
