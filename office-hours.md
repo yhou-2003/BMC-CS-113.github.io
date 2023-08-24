@@ -68,9 +68,6 @@ table > tbody > tr:nth-child(odd) {
 # Office Hours
 
 TA Office Hours on BMC campus will meet in Park 231.
-Office Hours at HC campus will meet in Hilles 204
-
-> During the first week of class, office hours will be on Tuesday (01/17) & Wednesday (01/18) at 6-9pm and on Thursday (01/19) at 7-9pm in Park 231.
 
 General Schedule
 
@@ -85,33 +82,8 @@ General Schedule
 <tbody>
 <tr align="center">
 <td>Adam Poliak <br> Park 200C</td>
-<td align="center">Thursday</td>
-<td>3:30-4:45</td>
-</tr>
-<tr align="center">
-<td align="center">Maha Attique</td>
-<td align="center"> Monday <br> Wednesday </td>
-<td>6-8pm <br> 8-10pm </td>
-</tr>
-<tr align="center">
-<td align="center">Amina Ahmed</td>
-<td align="center"> Tuesday<br> Thursday </td>
-<td>7:30-9:30pm <br> 7-9pm </td>
-</tr>
-<tr align="center">
-<td align="center">Selin Butun</td>
-<td align="center"> Wednesday </td>
-<td> 6-8pm </td>
-</tr>
-<tr align="center">
-<td align="center">Renata (Rey) Del Vecchio</td>
-<td align="center"> Monday<br> </td>
-<td> 8-10pm<br> 6-8pm </td>
-</tr>
-<tr align="center">
-<td align="center">Jadyn Elliott <br> Haverford Hilles 204</td>
-<td align="center"> Wednesday <br> Friday </td>
-<td>8-10pm<br> 4-6pm</td>
+<td align="center">TBD</td>
+<td>TBD</td>
 </tr>
 </tbody>
 </table>

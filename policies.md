@@ -40,7 +40,8 @@ There are weekly labs. Attending lab is part of your grade. The labs are designe
 
 #### Dropped Homeworks and Labs
 To account for issues that arise in these uncertain times, we 
-will drop your lowest homework and and lowest lab.
+will drop your lowest homework and and lowest lab. However,
+we will not drop a homework grade for HW05, HW07, or HW08.
 
 ### Academic Integrity 
 
@@ -67,7 +68,7 @@ As you progress in this course, you will see that programming is a creative proc
 
 ### Academic Accomodations
 
-All classes will be recorded and close-captioned. Links to lectures will be posted on the class syllabus.
+All classes will be recorded and close-captioned. Links to lectures will be posted on the course webpage.
 
 Any student who has a disability-related need to record this class first must speak with the Director of Access Services, Deb Alder, as part of university policy. Class members need to be aware that this class may be recorded.
 

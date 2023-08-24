@@ -51,14 +51,14 @@ Teaching Assistants
 : [Course Staff](staff.html) 
 
 Website 
-: [https://cs.brynmawr.edu/cs113/](https://cs.brynmawr.edu/cs113/)
+: [https://cs.brynmawr.edu/Courses/cs113/fall2023ap/](https://cs.brynmawr.edu/Courses/cs113/fall2023ap/)
 
 Discussion Forum
 : [Piazza](https://piazza.com/brynmawr/spring2023/cs113)
 
 Time and place
-: Spring 2023, TTH 12:55-2:15pm, Location: Park 338
-: Lab T: 2:25-3:45pm
+: Spring 2023, TTH 12:55-2:15pm, Location: Park 245
+: Lab T: 2:25-3:45pm, Location: Park 231
 
 Office Hours
 : <a href="{{ site.url }}{{ site.baseurl }}/office-hours.html">Times</a>
@@ -71,10 +71,10 @@ Course Readings
 : Some lectures will have accompanying optional reading related to the lecture's topic
 
 Grading
-* Homeworks: 29%
-* Labs: 7%
+* Homeworks: 30%
+* Labs: 10%
 * Midterms: 25%
-* Final: 34% 
+* Final: 35% 
 * Participation: 5%
 
 

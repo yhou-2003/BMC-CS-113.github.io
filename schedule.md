@@ -11,6 +11,9 @@ active_tab: lectures
 
 
 <div class="alert alert-info">
+
+You can <a href="https://brynmawr.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=044d58f9-262c-4e56-a8ac-b0660147f4ec">watch recordings of the Fall 2023 lecture videos online</a>.
+<br><br>
 You can <a href="https://brynmawr.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=7d5ab2e3-94a1-4004-a926-af8d013dc393">watch recordings of the Spring 2023 lecture videos online</a>.
 <br><br>
 You can <a href="https://brynmawr.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=b0c6bec5-ac83-404f-b3c7-af01000d8f3c">watch recordings of the Fall 2022 lecture videos online</a>.
@@ -23,7 +26,7 @@ The lecture schedule will be updated as the term progresses.
 
 Make sure to fill out the pre-course survey that is available Piazza.
 
-Make sure you are registered for the course [Gradescope](https://www.gradescope.com/) and [Piazza](https://piazza.com/brynmawr/spring2023/cs113).
+Make sure you are registered for the course [Gradescope](https://www.gradescope.com/) and [Piazza](https://piazza.com/brynmawr/fall2023/cmscb113).
 
 {% for week in site.data.schedule %}
   <h3>

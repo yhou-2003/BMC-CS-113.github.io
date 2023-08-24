@@ -96,6 +96,9 @@ $ scp -r johndoe@goldengate.cs.brynmawr.edu:~/home/username/CS113/hw09 # This co
 #### VIM
 We will be using vim/vi as our text editor. vim is a powerful editor. Make sure to do the vim tutorial linked to in the first lab. 
 Here are some of the most common things you need to remember about vim
+
+This [cheat sheet](https://vim.rtorr.com/) lists lots of useful vim commands on one page.
+
 {% highlight tcsh %}
 `i` starts an interactive session
 `ESC` will end interactive mode
