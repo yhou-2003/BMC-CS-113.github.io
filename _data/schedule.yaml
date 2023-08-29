@@ -71,11 +71,11 @@
           url: "https://greenteapress.com/thinkjava7/html/chapter-05.html"
       assignments:
         - 
-          title: "Lab03 - Conditionals & String Comparisons"
+          title: "Lab03 - Conditionals"
           _url: "hws/HW00.html"
     - 
       date: 2023-09-26
-      title: Lecture 7 <br> Strings as Objects <br> Arrays I
+      title: Lecture 7 <br> Recursion
       assignments:
         - 
           deadline: 2023-10-02
@@ -83,23 +83,31 @@
           _url: "hws/HW01.html"
       readings:
         -
-          title: "Chapter 5: Conditionals & Logic"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-05.html"
+          title: "Chapter 6: Recursive Methods"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-05.html"
     - 
       date: 2023-09-28
-      title: Lecture 8 <br> Arrays II
+      title: Lecture 8 <br> Strings as Objects <br> Arrays I
       assignments:
         - 
-          title: "Lab04 - Arrays"
+          title: "Lab04 - Recursion & String methods"
           _url: "hws/HW00.html"
+      readings:
+        -
+          title: "Chapter 7: Objects: Strings"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-05.html"
     - 
       date: 2023-10-03
-      title: Lecture 9 <br> Recursion
+      title: Lecture 9 <br> Arrays I
       assignments:
         - 
           deadline: 2023-10-09
           title: "HW04 - Arrays & Recursion"
           _url: "hws/HW01.html"
+      readings:
+        -
+          title: "Chapter 8: Arrays and References"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-05.html"
     - 
       date: 2023-10-05
       title: Lecture 10 <br> Recursion II 
@@ -109,7 +117,7 @@
           url: "https://greenteapress.com/thinkjava7/html/chapter-06.html"
       assignments:
         - 
-          title: "Lab05 - Recursion"
+          title: "Lab05 - Exceptions & Files"
           _url: "hws/HW00.html"
     - 
       date: 2023-10-10
