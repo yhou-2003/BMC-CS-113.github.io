@@ -12,14 +12,14 @@
       readings:
         -
           title: "Chapter 1: Computer Programming"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-01.html"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-01.html"
     - 
       date: 2023-09-07
       title: Lecture 2 <br> Data Types (Ints, doubles, strings)
       readings:
         -
           title: "Chapter 2: Variables & Operators"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-02.html"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-02.html"
       assignments:
         - 
           title: "Lab00 - CS Lab Machines 101: Command Line"
@@ -38,14 +38,14 @@
       readings:
         -
           title: "Chapter 3: Input & Output"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-03.html"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-03.html"
     - 
       date: 2023-09-14
       title: Lecture 4 <br> Methods I
       readings:
         -
           title: "Chapter 4: Methods & Testing"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-04.html"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-04.html"
       assignments:
         - 
           title: "Lab02 - I/O & Methods"
@@ -61,14 +61,14 @@
       readings:
         -
           title: "Chapter 4: Methods & Testing"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-04.html"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-04.html"
     - 
       date: 2023-09-21
       title: Lecture 6 <br> Booleans & Conditionals
       readings:
         -
           title: "Chapter 5: Conditionals & Logic"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-05.html"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-05.html"
       assignments:
         - 
           title: "Lab03 - Conditionals"
@@ -98,7 +98,7 @@
           _url: "https://greenteapress.com/thinkjava7/html/chapter-05.html"
     - 
       date: 2023-10-03
-      title: Lecture 9 <br> Arrays I
+      title: Lecture 9 <br> Arrays II
       assignments:
         - 
           deadline: 2023-10-09
@@ -108,13 +108,13 @@
         -
           title: "Chapter 8: Arrays and References"
           _url: "https://greenteapress.com/thinkjava7/html/chapter-05.html"
+        -
+          title: "Chapter 9.5: Command Line Arguments"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-09.html#sec113"
     - 
       date: 2023-10-05
       title: Lecture 10 <br> Recursion II 
-      readings:
-        -
-          title: "Chapter 6: Loops & Strings"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-06.html"
+      readings: ~
       assignments:
         - 
           title: "Lab05 - Exceptions & Files"
@@ -129,18 +129,11 @@
           _url: "hws/HW01.html"
       readings:
         -
-          title: "Chapter 7: Arrays & References"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-07.html"
+          title: "Chapter 9: Loops"
     - 
       date: 2023-10-12
       title: Lecture 12 <br> Midterm
-      readings:
-        -
-          title: "Chapter 7: Arrays & References"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-07.html"
-        -
-          title: "Chapter 9.5: Command Line Arguments"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-09.html#sec113"
+      readings: ~
       assignments:
         - 
           title: "Lab06 - Loops, 2-D Arrays, Tic Tac Toe, Reading Files (Exceptions)"
@@ -159,8 +152,7 @@
       assignments:
       readings:
         -
-          title: "Chapter 8: Recursive Methods"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-08.html"
+          title: "Chapter 9: Loops"
   name: "Programming Fundamentals"
 - 
   lectures: 
@@ -169,8 +161,11 @@
       title: Lecture 14 <br> Immutable vs Mutables <br> Classes vs Objects
       readings:
         -
-          title: "Chapter 8: Recursive Methods"
-          url: ""
+          title: "Chapter 10: Immutable Objects"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-09.html"
+        -
+          title: "Chapter 11: Mutable Objects"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-10.html"
       assignments:
         - 
           title: "Lab07 - Class Design"
@@ -185,11 +180,8 @@
           _url: "hws/HW00.html"
       readings:
         -
-          title: "Chapter 9: Immutable Objects"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-09.html"
-        -
-          title: "Chapter 10: Mutable Objects"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-10.html"
+          title: "Chapter 12: Designing Classes"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-09.html"
     - 
       date: 2023-11-02
       title: Lecture 16 <br> Arrays of Objects
@@ -197,6 +189,10 @@
         - 
           title: "Lab08 - Collection of Objects"
           _url: "hws/HW00.html"
+      readings:
+        -
+          title: "Chapter 13: Arrays of Ojbects (everything up to 12.7)"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-12.html"
     - 
       date: 2023-11-07
       title: Lecture 17 <br> Relationships! (Inheritance)
@@ -205,13 +201,16 @@
           deadline: 2023-11-17
           title: "HW07 - Big OOP Polymorphism assignment"
           _url: "hws/HW00.html"
+      readings:
+        - 
+          title: "Chapter 15: Extending Classes"
     - 
       date: 2023-11-09
       title: Lecture 18 <br> Class Actions (Interfaces)
       readings:
         -
-          title: "Chapter 11: Designing Classes"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-11.html"
+          title: "Chapter 18.7: Interfaces"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-17.html#sec206"
       assignments:
         - 
           title: "Lab09 - Interfaces"
@@ -221,15 +220,11 @@
       title: Lecture 19 <br> Searching
       readings:
         -
-          title: "Chapter 12: Arrays of Ojbects (everything up to 12.7)"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-12.html"
+          title: "Chapter 13.7: Sequential Search"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-12.html#sec152"
     - 
       date: 2023-11-16
       title: Lecture 20 <br> Review
-      readings:
-        -
-          title: "Chapter 14: Extending classes"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-14.html"
       assignments:
         - 
           title: "Lab10 - Review"
@@ -237,10 +232,6 @@
     - 
       date: 2023-11-21
       title: Lecture 21 <br> Midterm
-      readings:
-        -
-          title: "Chapter 17.7: Interfaces"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-17.html#sec206"
     - 
       date: 2023-11-23
       title: THANKSGIVING
@@ -257,15 +248,11 @@
           _url: "hws/HW01.html"
       readings:
         -
-          title: "Chapter 12.7: Sequential Search"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-12.html#sec152"
+          title: "Chapter 13.8: Binary Search"
+          _url: "https://greenteapress.com/thinkjava7/html/chapter-12.html#sec153"
     - 
       date: 2023-11-30
       title: Lecture 23 <br> Sorting
-      readings:
-        -
-          title: "Chapter 12.8: Binary Search"
-          url: "https://greenteapress.com/thinkjava7/html/chapter-12.html#sec153"
       assignments:
         - 
           title: "Lab11 - Sorting"
