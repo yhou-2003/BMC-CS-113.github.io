@@ -22,8 +22,8 @@
           url: "https://greenteapress.com/thinkjava7/html/chapter-02.html"
       assignments:
         - 
-          title: "Lab00 - Text editor, Command Line"
-          _url: "hws/HW00.html"
+          title: "Lab00 - CS Lab Machines 101: Command Line"
+          url: "labs/Lab00.html"
         - 
           title: "Lab01 - Data Types & Expressions"
           _url: "hws/HW00.html"

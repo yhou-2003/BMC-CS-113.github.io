@@ -28,6 +28,8 @@ Make sure to fill out the pre-course survey that is available Piazza.
 
 Make sure you are registered for the course [Gradescope](https://www.gradescope.com/) and [Piazza](https://piazza.com/brynmawr/fall2023/cmscb113).
 
+Please complete <a href="{{ site.url }}{{ site.baseurl }}/labs/Lab00.html">Lab00</a> before the first lab meeting.
+
 {% for week in site.data.schedule %}
   <h3>
     {{ week.name }}

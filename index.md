@@ -67,7 +67,7 @@ Prerequisites
 : None - no prior programming background is required
 
 Course Readings
-: Each lecture has an accompanying chapter/section of the [textbook](https://cs.brynmawr.edu/cs113/textbook/cs113Textbook.pdf)
+: Each lecture has an accompanying chapter/section of the <a href="{{ site.url }}/{{ site.baseurl }}/textbook/cs113Textbook.pdf">textbook</a>
 : Some lectures will have accompanying optional reading related to the lecture's topic
 
 Grading
