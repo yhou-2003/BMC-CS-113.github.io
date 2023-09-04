@@ -8,7 +8,7 @@
         - 
           deadline: 2023-09-11
           title: "HW00 - Hello World, Compile Errors"
-          _url: "hws/HW00.html"
+          url: "hws/HW00.html"
       readings:
         -
           title: "Chapter 1: Computer Programming"
