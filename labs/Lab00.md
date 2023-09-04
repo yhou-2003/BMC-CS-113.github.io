@@ -360,6 +360,7 @@ There are many more commands that you will be using during the semester. These i
 As the semester progresses, you will get more comfortable with and even gain mastery over the command line. Programming is a skill that can be developed like any other skill: practice, practice, practice!
 
 ## 2. OPTIONAL: Downloading and viewing files
+The remaining sections of this lab are optional.
 
 For the rest of this lab, you should be working in the `labs/lab00/` directory.
   
