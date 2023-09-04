@@ -359,7 +359,58 @@ There are many more commands that you will be using during the semester. These i
 
 As the semester progresses, you will get more comfortable with and even gain mastery over the command line. Programming is a skill that can be developed like any other skill: practice, practice, practice!
 
-## 2. OPTIONAL: Downloading and viewing files
+## 2. VIM editor
+
+_credit: Swarthmore CS21 Lab 0_
+
+This semester wewill use the vim editor for editing files on our system. You will primarily use vim to create and edit files containing the python program code to run on our system.
+
+The `vi` and `vim` (Vi IMproved) editors are available on every Unix system. `vim` is an efficient and lightweight text editor that is easy to use after learning a few basic commands, which you can learn by running though the `vimtutor` tutorial.
+
+`vim` is particularly useful when working remotely over an ssh connection (an ssh connection is
+how you will connect to the lab machines remotely).
+
+`vim` also has many advanced features and is very configurable through, e.g., the use of a `.vimrc` file. However, just a few basic commands are enough to get you started.
+
+<b>Vim operates in two modes:</b>
+1. <b>insert mode</b>: keystrokes are interpreted as inserts into the file contents at the point of the cursor.
+2. <b>command or escape mode</b>: keystrokes are interpreted as vim commands, which allow a user to do such things as saving, exiting, searching, or moving around in the file.
+
+To switch from <i>insert mode</i> to <i>command mode</i>, press the ESC key.
+
+There are many ways to switch from <i>command mode</i> to <i>insert mode</i>. One way is to press the `i` key.
+
+<b>To learn the vim editor, run `vimtutor`:</b>
+
+***Exercise 21:*** Run `cd` into your cs113/labs/lab00 subdirectory and run `vimtutor` to learn vim.
+
+```
+  $ pwd                  # list current working directory
+  $ cd                   # go to home directory from current directory
+  $ ls                   # list (ls) home directory contents
+  $ cd cs113/labs/lab01  # cd into your cs113/labs/lab01 directory
+  $ pwd                  # should list /home/you/cs113/labs/lab01
+  $ ls                   # list contents of current directory
+```
+From within your cs113/labs/lab01 subdirectory run the vim tutorial:
+
+```
+  $  vimtutor     # start the vim tutorial
+```
+
+***Exercise 21:*** Go through the sections listed below of vimtutor (the other sections cover more obscure features that are not necessary). It will take about 30 minutes to run through these lessons:
+
+1. All of Lesson 1 (moving around, x, i, A, :wq)
+1. Lesson 2.6 (dd)
+1. Lesson 2.7 (undo)
+1. Lesson 3.1 (p) and 3.2 (r)
+1. Lesson 4.1 (G) and 4.2 (searching)
+1. Lesson 6.2 (a), 6.3 ( R ), and 6.4 (y and p)
+
+**Some Vim Resources and Links**
+
+
+## 3. OPTIONAL: Downloading and viewing files
 The remaining sections of this lab are optional.
 
 For the rest of this lab, you should be working in the `labs/lab00/` directory.
@@ -369,7 +420,7 @@ We are now going to start looking at some data. `wget` is a "non-interactive net
 
 ***TODO:*** Run `wget` and follow the instructions to figure out how it works.
 
-***Exercise 21:*** What argument does `wget` require?
+***Exercise 22:*** What argument does `wget` require?
 
 <br>
 <br>
@@ -383,7 +434,7 @@ We are going to download a book from [Project Gutenberg](https://www.gutenberg.o
 ```
 wget https://www.gutenberg.org/ebooks/345.txt.utf-8
 ```
-***Exercise 22:*** What command from above could you use to determine that the file has downloaded? Then use that command to make sure that the file is indeed there.
+***Exercise 23:*** What command from above could you use to determine that the file has downloaded? Then use that command to make sure that the file is indeed there.
 
 <br>
 <br>
@@ -401,7 +452,7 @@ We are going to figure out what `cat` does by playing with in.
 
 ***TODO:*** Run `cat`. Next, type a message into the command line and press `Enter`. 
 
-***Exercise 23:*** What happened? 
+***Exercise 24:*** What happened? 
 
 Once you are finished with `cat`, hit `CTRl-C`, this will terminate the `cat` program. 
 
