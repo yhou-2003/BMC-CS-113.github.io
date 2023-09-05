@@ -68,25 +68,62 @@ table > tbody > tr:nth-child(odd) {
 # Office Hours
 
 TA Office Hours on BMC campus will meet in Park 231.
+There will be TA office hours every night Monday-Thursday from 7-10pm.
+There will also be TA office hours every Sunday night from 7-9pm 
+(the TAs will rotate who is holding office hours each Sunday).
 
 General Schedule
 
-<table>
+<table class="tg">
 <thead>
-<tr>
-<th align="center">Name</th>
-<th align="center">Day</th>
-<th align="center">Time</th>
-</tr>
+  <tr>
+    <th class="tg-7btt">Name</th>
+    <th class="tg-7btt">Day</th>
+    <th class="tg-7btt">Time</th>
+  </tr>
 </thead>
 <tbody>
-<tr align="center">
-<td>Adam Poliak <br> Park 200C</td>
-<td align="center">TBD</td>
-<td>TBD</td>
-</tr>
+  <tr>
+    <td class="tg-c3ow">Adam Poliak<br>Park 200C</td>
+    <td class="tg-c3ow">TBD</td>
+    <td class="tg-c3ow">TBD</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Maha Attique<br></td>
+    <td class="tg-c3ow">Monday<br>Wednesday</td>
+    <td class="tg-c3ow">8-10pm</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Lily Davoren</td>
+    <td class="tg-c3ow">Monday<br>Tuesday</td>
+    <td class="tg-c3ow">7-9pm</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">Kripa Lamichhane</span></td>
+    <td class="tg-c3ow">Tuesday<br>Wednesday</td>
+    <td class="tg-c3ow">7-9pm</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Alison Teske<br></td>
+    <td class="tg-c3ow">Tuesday</td>
+    <td class="tg-c3ow">8-10pm</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Juno Bartsch<br></td>
+    <td class="tg-c3ow">Wednesday<br>Friday</td>
+    <td class="tg-c3ow">7-9pm<br>7-10pm</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Yiling Hou</td>
+    <td class="tg-c3ow">Thursday</td>
+    <td class="tg-c3ow">7-10pm</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Grace Tsai</td>
+    <td class="tg-c3ow">Thursday</td>
+    <td class="tg-c3ow">8-10pm</td>
+  </tr>
 </tbody>
 </table>
-
 
 
