@@ -83,6 +83,16 @@ mkdir lab01
 cd lab01
 ```
 
+To confirm this works, you should see something like
+`apoliak@julia:~/cs113/labs/lab01$ ` on the command prompt.
+You will hopefully see your username instead of `apoliak` and different
+name after the `@` symbol besides for `julia`. Lab00 explains what the second
+name means.
+
+Another way to confirm you followed the steps above correctly is to run 
+`pwd`. You should the see something like `/home/apoliak/cs113/labs/lab01` (where
+again it will say your username rather than `apoliak`.
+
 ## 1. Expressions 
 
 Each row in the table below represents an expression. Please fill in the **value** and **types** for each expression.
@@ -167,6 +177,11 @@ how you will connect to the lab machines remotely).
 
 `vim` also has many advanced features and is very configurable through, e.g., the use of a `.vimrc` file. However, just a few basic commands are enough to get you started.
 
+<b>Creating and opening a file in Vim</b>
+
+Start by typing `vim example.txt`. This will create a new file called
+`example.txt` and will open it up in vim.
+
 <b>Vim operates in two modes:</b>
 1. <b>insert mode</b>: keystrokes are interpreted as inserts into the file contents at the point of the cursor.
 2. <b>command or escape mode</b>: keystrokes are interpreted as vim commands, which allow a user to do such things as saving, exiting, searching, or moving around in the file.
@@ -189,6 +204,7 @@ Here are som helpful resources:
 ## 2. Sum.java
 
 > Note: The next few problems will require asking the user for information, storing the information, and then doing something with it.
+> Look at slide 8 from the 2nd lecture on how to read in what the user writes in the console.
 
 ### Sum1
 
@@ -321,9 +337,9 @@ public class Mystery1 {
 
     public static void main(String[] args) {
     
-        String input = System.console().readLine();
+        String input = System.console().readLine()
         int value = Integer.parseInt(input);
-        double fraction = value / 10;
+        double fraction = value / 10
         System.out.println("The fraction is "+fraction);
     }
 }
@@ -332,6 +348,7 @@ public class Mystery1 {
 ***TODO: Quesiton 5.2.1.*** 
 what is the error? Is the error is syntax error, runtime error, or logic error? How can we fix the problem?
 <br><br><br>
+
 
 ### 5.2.2 Mystery 2
 
@@ -342,12 +359,32 @@ public class Mystery2 {
     
         String input = System.console().readLine();
         int value = Integer.parseInt(input);
+        double fraction = value / 10;
+        System.out.println("The fraction is "+fraction);
+    }
+}
+```
+
+***TODO: Quesiton 5.2.2.*** 
+what is the error? Is the error is syntax error, runtime error, or logic error? How can we fix the problem?
+<br><br><br>
+
+
+### 5.2.3 Mystery 3
+
+```
+public class Mystery3 {
+
+    public static void main(String[] args) {
+    
+        String input = System.console().readLine();
+        int value = Integer.parseInt(input);
         double fraction = value / 0;
         System.out.println("The fraction is "+fraction);
     }
 }
 ```
-***TODO: Quesiton 5.2.2.*** 
+***TODO: Quesiton 5.2.3.*** 
 what is the error? Is the error is syntax error, runtime error, or logic error? How can we fix the problem?
 <br><br><br>
 
