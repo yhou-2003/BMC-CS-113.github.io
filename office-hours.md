@@ -85,8 +85,8 @@ General Schedule
 <tbody>
   <tr>
     <td class="tg-c3ow">Adam Poliak<br>Park 200C</td>
-    <td class="tg-c3ow">TBD</td>
-    <td class="tg-c3ow">TBD</td>
+    <td class="tg-c3ow">Monday <br> Tuesday </td>
+    <td class="tg-c3ow">2:45-4:00pm <br> 9:30-10:45am</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Maha Attique<br></td>
