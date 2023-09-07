@@ -27,7 +27,7 @@
           url: "labs/Lab00.html"
         - 
           title: "Lab01 - Data Types & Expressions"
-          _url: "hws/HW00.html"
+          url: "labs/Lab01.html"
     - 
       date: 2023-09-12
       title: Lecture 3 <br> I/O (input/output)
