@@ -57,7 +57,7 @@ The main goals for this lab are for you to get more comfortable with variables, 
 - Variables: defining and assigning
 - Data types: `String`, `double`, `int`
 - `System.out.println()`, `System.out.print()`
-- `System.console.readLine()` for reading in data
+- `System.console().readLine()` for reading in data
 - arithmetic operators: `+`, `*`, `-`, `\`, `%`
 - String concatenation with `+`
 - Operators and expressions, order of operations
